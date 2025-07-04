@@ -39,7 +39,7 @@ Sigue estos pasos para configurar y ejecutar la API en tu entorno local:
     DB_HOST=localhost
     DB_PORT=3306
     DB_USERNAME=root
-    DB_PASSWORD=tu_contraseña_mysql
+    DB_PASSWORD=
     DB_DATABASE=inventario_quirurgico
     PORT=3000
     ```

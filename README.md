@@ -52,3 +52,18 @@ Sigue estos pasos para configurar y ejecutar la API en tu entorno local:
     npm run start:dev
     ```
     La API se iniciará y estará disponible en `http://localhost:3000` (o el puerto que hayas configurado en `.env`). TypeORM sincronizará automáticamente las entidades con tu base de datos, creando las tablas necesarias.
+
+    ## 🧪 Pruebas de la API con Insomnia
+
+Para facilitar las pruebas y la interacción con esta API, se ha incluido una colección de Insomnia con todas las rutas y ejemplos de peticiones.
+
+1.  **Descargar la Colección:**
+    Encontrarás el archivo **`configuracionrutas.yaml`** en la raíz de este repositorio.
+
+2.  **Importar en Insomnia:**
+    * Abre la aplicación Insomnia.
+    * Haz clic en el menú `File` (Archivo) -> `Import Data` (Importar Datos) -> `From File` (Desde Archivo).
+    * Navega y selecciona el archivo **`configuracionrutas.yaml`** que descargaste del repositorio.
+    * Una vez importada, podrás ver y ejecutar todas las peticiones CRUD definidas para las entidades del inventario.
+
+    **Consideración:** Asegúrate de que la URL base de tus peticiones en Insomnia apunte a `http://localhost:3000` (o el puerto donde esté corriendo tu API).

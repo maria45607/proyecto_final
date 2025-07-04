@@ -24,10 +24,9 @@ Sigue estos pasos para configurar y ejecutar la API en tu entorno local:
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/](https://github.com/)<TU_USUARIO_GITHUB>/inventario-quirurgico-api.git
-    cd inventario-quirurgico-api
+    git clone [https://github.com/maria45607/proyecto_final.git](https://github.com/maria45607/proyecto_final.git)
+    cd proyecto_final
     ```
-    (Recuerda reemplazar `<TU_USUARIO_GITHUB>` con tu nombre de usuario de GitHub).
 
 2.  **Instalar dependencias:**
     ```bash

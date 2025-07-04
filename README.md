@@ -65,5 +65,6 @@ Para facilitar las pruebas y la interacción con esta API, se ha incluido una co
     * Haz clic en el menú `File` (Archivo) -> `Import Data` (Importar Datos) -> `From File` (Desde Archivo).
     * Navega y selecciona el archivo **`configuracionrutas.yaml`** que descargaste del repositorio.
     * Una vez importada, podrás ver y ejecutar todas las peticiones CRUD definidas para las entidades del inventario.
+    * Al buscar la coleccion de insomnia se encuentra en la rama de main
 
     **Consideración:** Asegúrate de que la URL base de tus peticiones en Insomnia apunte a `http://localhost:3000` (o el puerto donde esté corriendo tu API).
